@@ -1,0 +1,35 @@
+{
+  "name": "tsflash",
+  "version": "0.1.0",
+  "description": "A flash message library written in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "compile-watch": "tsc -w",
+    "debug": "./node_modules/mocha/bin/mocha --recursive --debug-brk",
+    "test": "./node_modules/mocha/bin/mocha --recursive -s 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefallon/tsflash.git"
+  },
+  "keywords": [
+    "flash messages",
+    "TypeScript"
+  ],
+  "author": "Joe Fallon <joseph.t.fallon@gmail.com> (http://blog.joefallon.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joefallon/tsflash/issues"
+  },
+  "homepage": "https://github.com/joefallon/tsflash#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "types": "./src",
+  "dependencies": {
+  }
+}
